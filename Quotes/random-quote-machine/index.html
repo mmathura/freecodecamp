@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Random Quote Machine</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <body onload="displayQuote()">
+  
+  <div class="container-fluid">
+
+    <div class="row">
+
+      <div class="col-md-6 col-md-offset-3">
+
+        <div class="panel panel-default">
+
+          <div class="panel-heading">
+            <h3 class="panel-title">Quote of the Day</h3>
+          </div>
+
+          <div class="panel-body">
+
+            <blockquote class="blockquote-reverse">
+              <p>
+                <div id="new_quote">
+                  Everything should be made as simple as possible, but not one bit simpler.
+                </div>
+              </p>
+              <footer>Attributed, <cite title="Source Title" id="new_author">Albert Einstein</cite></footer>
+            </blockquote>
+            <hr>
+            <p class="text-right">
+              <a id="tweet_button" href="#" target="_blank" type="submit" class="btn btn-default btn-lg">
+                <i class="fa fa-twitter fa-lg" aria-hidden="true"></i>
+              </a>
+            </p>
+
+          </div>
+
+        </div>
+
+        <p class="text-center">
+          <button type="submit" onclick="displayQuote();" class="btn btn-default btn-lg">New quote</button>
+        </p>
+        <br>
+        <p>
+          Coded with <span class="glyphicon glyphicon-heart " aria-hidden="true "></span> using JavaScript
+        </p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</body>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>

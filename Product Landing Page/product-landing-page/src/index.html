@@ -1,0 +1,167 @@
+<!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
+
+<!--  navbar -->
+
+<header id="header" class="pb-5">
+  <nav id="nav-bar" class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand pl-5" href="#">
+      <img src="#" id="header-img" width="30" height="30" alt="[Logo]">
+      Brand
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" 
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#signup">signup
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#products">products</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<div data-spy="scroll" data-target="#nav-bar" data-offset="50">
+  
+  <!-- signup form -->
+  
+  <div class="container pt-5" id="signup">
+    <div class="row">
+      <div class="col"></div>
+      <div class="col">
+        <h1 id="description" class="text-center">
+          Sign up for our <u><strong>free</strong></u> news letter
+        </h1>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <div class="form-group">
+            <input id="email" name="email" type="email" class="form-control" placeholder="name@example.com" aria-label="Email" required></input>
+          </div>
+           <div class="form-group"> 
+            <input type="submit" name="submit" id="submit" value="Submit" class="form-control btn btn-success"></input>
+          </div>
+        </form>
+      </div>
+      <div class="col"></div>
+    </div>
+  </div>
+
+  <!-- product video -->
+
+  <div class="container text-center pt-5"> 
+    <video id="video" controls>
+      <source src="#" type="video/mp4">
+      Your browser does not support embedded videos.
+    </video>
+  </div>
+
+  <!-- product description -->
+
+  <div class="container col-6 text-justify pt-5"> 
+    <h1 class="text-center" id="products">Our Products</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa odio dignissimos quibusdam quasi suscipit, molestiae in qui non 
+      consectetur cum neque, maiores tempora eligendi eius perspiciatis consequatur ea alias autem.
+    </p>
+    <div class="row">
+      <div class="col-2 d-none d-md-block">
+        <i class="fas fa-dollar-sign fa-3x"></i> 
+      </div>
+      <div class="col-10">
+        <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe corrupti, reiciendis velit eius optio itaque voluptatibus 
+        facere debitis deserunt quas! Maxime excepturi quae, ullam obcaecati consectetur laudantium cupiditate amet possimus.
+        </p>
+      </div>
+      <div class="col-2 d-none d-md-block">      
+        <i class="fas fa-battery-full fa-3x"></i> 
+      </div>
+      <div class="col-10">
+        <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, ab. Corrupti optio libero quia, sint sunt nihil 
+        deleniti nam. Soluta, quaerat. Corporis tenetur amet nemo at veniam quas omnis illo.
+        </p>
+      </div>
+      <div class="col-2 d-none d-md-block">  
+        <i class="fas fa-truck fa-3x"></i> 
+      </div>
+      <div class="col-10">  
+        <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident asperiores facere aperiam quasi commodi, sit similique,  
+        expedita fugiat quidem, nisi error autem vel nihil cupiditate velit maxime quis nam. Est.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!--  product cards  -->
+
+  <div class="box pt-5"> 
+    <div class="card1">
+     <div class="card" style="width: 18rem;">
+      <img src="https://images.unsplash.com/photo-1496878632226-93afc36151ab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" class="card-img-top" alt="[Mouse]">
+        <div class="card-body">
+          <h5 class="card-title">Mouse</h5>
+          <p class="card-text">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae molestiae praesentium beatae nihil tempora 
+            corporis aspernatur ullam labore, sit eveniet quaerat natus quia hic voluptatibus itaque soluta voluptatem doloremque 
+            explicabo.
+          </p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+    <div class="card2">
+     <div class="card" style="width: 18rem;">
+      <img src="https://images.unsplash.com/photo-1529236183275-4fdcf2bc987e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1047&q=80" class="card-img-top" alt="[Keyboard]">
+        <div class="card-body">
+          <h5 class="card-title">Keyboard</h5>
+          <p class="card-text">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim, labore beatae dolores rerum corrupti natus dolor
+            corporis doloribus at ipsa nulla excepturi voluptate laboriosam distinctio itaque asperiores, accusamus vel? Minima.
+          </p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+    <div class="card3">
+     <div class="card" style="width: 18rem;">
+      <img src="https://images.unsplash.com/21/mac-glasses.JPG?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjF9&auto=format&fit=crop&w=1050&q=80" class="card-img-top" alt="[Laptop]">
+        <div class="card-body">
+          <h5 class="card-title">Laptop</h5>
+          <p class="card-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi aliquid non vitae nobis? Recusandae 
+            exercitationem soluta minima, accusamus doloribus aliquid rerum illum! Corporis, nulla iste. Ut aliquid voluptates id 
+            voluptatem.
+          </p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- contact -->
+
+  <div class="container col-6 text-justify pt-5">
+    <h1 class="text-center" id="contact">Contact Us</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, quo minima. Ab repudiandae similique voluptate modi, deserunt 
+      asperiores ut veritatis sunt nihil! Similique temporibus totam corporis id saepe culpa corrupti?
+    </p>
+    <p class="text-center">
+      <i class="fab fa-twitter fa-2x"></i>&nbsp; &nbsp; &nbsp;
+      <i class="fab fa-facebook-f fa-2x"></i>&nbsp; &nbsp; &nbsp;
+      <i class="fab fa-instagram fa-2x"></i>
+    </p>
+  </div>
+
+</div>
+

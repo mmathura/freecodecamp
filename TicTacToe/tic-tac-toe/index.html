@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Tic-Tac-Toe</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div class="row">
+  
+  <div class="col-xs-6 col-sm-4"></div>
+  
+  <div class="col-xs-6 col-sm-4">
+  
+    <div class="page-header">
+      <h1>TicTacToe <small>FreeCodeCamp</small></h1>
+    </div>
+    <form id="player_select">
+      <p class="text-center">
+        <label class="radio-inline">
+          <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="X"><strong>X</strong></input>
+        </label>
+        <label class="radio-inline">
+          <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="O"><strong>O</strong></input>
+        </label>&nbsp;
+        <button type="button" class="btn btn-success" id="start">
+          <span class="glyphicon glyphicon-play" aria-hidden="true"></span>
+          &nbsp;Start
+        </button>
+        <table class="table table-bordered text-center">
+          <tr> 
+            <td>
+              WINS:&nbsp;
+              <strong>X</strong>&nbsp;
+              <span id="x-score" class="badge">0</span>&nbsp;
+              <strong>O</strong>&nbsp;
+              <span id="o-score" class="badge">0</span>
+            </td>
+          </tr>
+        </table>
+        <!-- 
+        <p class="text-center">
+          <button type="button" class="btn btn-success" id="start">
+            <span class="glyphicon glyphicon-play" aria-hidden="true"></span>
+            &nbsp;Start
+          </button>
+          &nbsp;
+          <button type="button" class="btn btn-danger" id="stop">
+            <span class="glyphicon glyphicon-stop" aria-hidden="true"></span>
+            &nbsp;Stop
+          </button>
+          &nbsp;
+          <button type="button" class="btn btn-warning" id="reset">
+            <span class="glyphicon glyphicon-refresh" aria-hidden="true"></span>
+            &nbsp;Reset
+          </button>
+        </p> 
+        -->
+      </p>
+    </form>
+
+    <hr>
+       
+    <table class="table table-bordered text-center">
+        
+      <tr>
+        <td id="0" style="border-left: hidden; border-top: hidden; border-width: medium"><h1>&nbsp;&nbsp;&nbsp;&nbsp;</h1></td>
+        <td id="1" style="border-top: hidden; border-width: medium"><h1>&nbsp;&nbsp;&nbsp;&nbsp;</h1></td>
+        <td id="2" style="border-top: hidden; border-right: hidden; border-width: medium"><h1>&nbsp;&nbsp;&nbsp;&nbsp;</h1></td>
+      </tr>
+      
+      <tr>
+        <td id="3" style="border-left: hidden; border-width: medium"><h1>&nbsp;&nbsp;&nbsp;&nbsp;</h1></td>
+        <td id="4"><h1>&nbsp;&nbsp;&nbsp;&nbsp;</h1></td>
+        <td id="5" style="border-right: hidden; border-width: medium"><h1>&nbsp;&nbsp;&nbsp;&nbsp;</h1></td>
+      </tr>
+      
+      <tr>
+        <td id="6" style="border-left: hidden; border-bottom: hidden; border-width: medium"><h1>&nbsp;&nbsp;&nbsp;&nbsp;</h1></td>
+        <td id="7" style="border-bottom: hidden; border-width: medium"><h1>&nbsp;&nbsp;&nbsp;&nbsp;</h1></td>
+        <td id="8" style="border-bottom: hidden; border-right: hidden; border-width: medium"><h1>&nbsp;&nbsp;&nbsp;&nbsp;</h1></td>
+      </tr>
+        
+    </table>
+    
+    <div class="col-xs-6 col-sm-4"></div>
+  
+  </div>
+  
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+
+    <script  src="js/index.js"></script>
+
+</body>
+</html>

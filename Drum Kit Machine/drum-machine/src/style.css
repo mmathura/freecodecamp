@@ -1,0 +1,9 @@
+body {
+  padding-top: 70px;
+}
+
+.flex-container {
+  display: flex;
+  flex-content: center;
+  justify-content: space-between;
+}

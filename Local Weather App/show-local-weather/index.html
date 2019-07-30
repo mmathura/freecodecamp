@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Show Local Weather</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <body onload="getLocation();">
+
+  <div class="row">
+
+    <div class="col-md-6 col-md-offset-3">
+
+      <div class="page-header">
+        <h1>Local Weather <small>FreeCodeCamp</small></h1>
+      </div>
+
+      <div class="panel panel-default">
+        <div class="panel-body">
+          <div class="text-center">
+            <div class="h3" id="Location"></div>
+            <div class="h1" id="Temperature"></div>
+            <div class="h4" id="Description"></div>
+            <div id="Icon"></div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="text-center">
+        <button class="btn btn-default" onclick="getLocation();" type="submit">Celsius <sup>o</sup>C</button>&nbsp;
+        <i class="fa fa-arrows-h fa-lg" aria-hidden="true"></i>&nbsp;
+        <button class="btn btn-default" onclick="getFahrenheit();" type="submit">Fahrenheit <sup>o</sup>F</button>
+      </div>
+      
+      <hr>
+      
+      <p>
+        Coded with <span class="glyphicon glyphicon-heart " aria-hidden="true "></span> using JavaScript
+      </p>
+     
+    </div>
+
+  </div>
+
+</body>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
+
+<div class="container">
+  <div class="row">
+    <div class="col"></div>
+    <div class="col">
+      <h1 id="title" class="text-center">FCC Survey Form</h1>
+      <p id="description" class="text-center">
+        This is a developer survey form
+      </p>
+      <form id="survey-form">
+        <div class="form-group">
+          <label for="name" id="name-label">* Name:</label>
+          <input class="form-control" id="name" type="text" placeholder="J Doe" required></input>
+        </div>
+        <div class="form-group">
+          <label for="email" id="email-label">* Email address:</label>
+          <input class="form-control" id="email" type="email" placeholder="jdoe@example.com" required></input>
+        </div>
+        <div class="form-group">
+          <label for="number" id="number-label">* At what age did you get your first computer?</label>
+          <input class="form-control" id="number" type="number" min="1" max="100" placeholder="15" required></input>
+        </div>
+        <div class="form-group">
+          <label for="dropdown" id="dropdown-label">What type of developer are you?</label>
+          <select class="form-control" id="dropdown">
+            <option>Professional</option>
+            <option>Self-taught</option>
+            <option>Hobbyist</option>
+            <option>Student</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>What are your favourite programming stack(s)?</label>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="stack1" value="node">
+            <label class="form-check-label" for="stack1">Node</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="stack2" value="django">
+            <label class="form-check-label" for="stack2">Django</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="stack3" value="dotnet">
+            <label class="form-check-label" for="stack3">.NET</label>
+          </div>
+        </div>
+        <div class="form-group">
+          <label>What is your favourite programming language?</label>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="language" id="language1" value="javascript">
+            <label class="form-check-label" for="language1">JavaScript</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="language" id="language2" value="python">
+            <label class="form-check-label" for="language2">Python</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="language" id="language3" value="csharp">
+            <label class="form-check-label" for="language3">C#</label>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="comments" id="comments-label">Comments:</label>
+          <textarea class="form-control" id="comments" rows="3">Other programming languages</textarea>
+        </div>
+        <div class="text-center"> 
+          <button type="submit" id="submit" class="btn btn-primary btn-lg">Submit</button>
+        </div>
+      </form>
+    </div>
+    <div class="col"></div>
+  </div>
+</div>

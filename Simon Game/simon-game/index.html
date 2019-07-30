@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Simon Game</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div class="row">
+  
+  <div class="col-xs-6 col-sm-4"></div>
+  
+  <div class="col-xs-6 col-sm-4">
+  
+    <div class="page-header">
+      <h1>Simon Game <small>FreeCodeCamp</small></h1>
+    </div>
+    <form id="player_select">
+      <p class="text-center">
+        <label class="radio-inline">
+          <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="on"><strong>On</strong></input>
+        </label>
+        <label class="radio-inline">
+          <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="off"><strong>Off</strong></input>
+        </label>&nbsp;
+      </p>
+    </form>
+    <table class="table table-bordered text-center">
+      <tr> 
+        <td>
+          <strong>STEPS:</strong>&nbsp;
+          <span id="score0" class="badge">&nbsp;</span>
+          <span id="score1" class="badge">&nbsp;</span>
+        </td>
+      </tr>
+    </table>
+    <p class="text-center">
+      <button type="button" class="btn btn-danger" id="start">
+        <span class="glyphicon glyphicon-play" aria-hidden="true"></span>
+        &nbsp;Start
+      </button>
+      &nbsp;
+      <button type="button" class="btn btn-warning" id="strict">
+        <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+        &nbsp;Strict
+      </button>
+    </p>
+
+    <hr>
+       
+    <table class="table table-bordered text-center">
+        
+      <tr>
+        <td id="0" class="cells success" style="border-width: medium"><h1>&nbsp;&nbsp;&nbsp;&nbsp;</h1></td>
+        <td id="1" class="cells danger" style="border-width: medium"><h1>&nbsp;&nbsp;&nbsp;&nbsp;</h1></td>
+      </tr>
+      
+      <tr>
+        <td id="2" class="cells warning" style="border-width: medium"><h1>&nbsp;&nbsp;&nbsp;&nbsp;</h1></td>
+        <td id="3" class="cells info" style="border-width: medium"><h1>&nbsp;&nbsp;&nbsp;&nbsp;</h1></td>
+      </tr>
+      
+    </table>
+    
+    <div class="col-xs-6 col-sm-4"></div>
+  
+  </div>
+  
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/beeplay/0.0.5/beeplay.min.js'></script>
+
+    <script  src="js/index.js"></script>
+
+</body>
+</html>
